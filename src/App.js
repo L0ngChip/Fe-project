@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import path from './utils/path';
-import { Login, Public } from './public';
-import { Home } from './components';
+import { ClassManage, Login, Public, Home } from './public';
 
 function App() {
     return (
@@ -11,7 +10,7 @@ function App() {
                     <Route path={path.LOGIN} element={<Login />} />
                     <Route path={path.PUBLIC} element={<Public />}>
                         <Route path={path.HOME} element={<Home />} />
-                        {/* <Route path={path.HOME} element={< />}/> */}
+                        <Route path={path.CLASS_MANAGE} element={<ClassManage />} />
                     </Route>
                 </Routes>
             </div>

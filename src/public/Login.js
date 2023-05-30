@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { AiOutlineDoubleLeft } from 'react-icons/ai';
 import { Button, Footer, Header } from '~/components';
 
